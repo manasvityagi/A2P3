@@ -36,8 +36,6 @@ public class MainActivity extends AppCompatActivity {
     Button getLocation;
     private TextView latitudeField;
     private TextView longitudeField;
-    private LocationManager locationManager;
-    private String provider;
     private static final int REQUEST_CODE_LOC_PERMISSION = 1;
 
     @Override
